@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* header */
+header {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin: auto;
+}
+.header-container {
+  width: 1440px;
+  height: 72px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container .header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container .header-logo .logo {
+  position: relative;
+  z-index: 999;
+}
+.header-container .header-logo img {
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 84px;
+}
+.header-container .logo {
+  margin-left: 50px;
+}
+.header-container .header-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+  margin-right: 50px;
+}
+.header-links .login-button {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  color: rgb(152, 152, 152);
+  font-size: 16px;
+  font-weight: 700;
+}
+/* header end */
+
+/* top section */
+.top-section {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-section .leftside-section h1 {
+  font-size: 58px;
+  line-height: 64px;
+  font-weight: 300;
+  color: #3f4255;
+  margin-top: 120px;
+}
+.leftside-section .leftside-section-box {
+  display: flex;
+  gap: 24px;
+  margin-top: 88px;
+}
+.leftside-section .leftside-section-box .box {
+  border: 1px solid #ffe145;
+  border-radius: 4px;
+  width: 118px;
+  height: 72px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.middle-img img {
+  width: 122px;
+  height: 166px;
+  transform: rotate(-31deg);
+  margin-top: 460px;
+  margin-left: 186px;
+}
+.rightside-section {
+  width: 648px;
+  height: 649px;
+  margin-top: 50px;
+  background-image: url("./images/plate.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* top section end */
+
+/* main delivery section */
+.main-delivery-section {
+  width: 1256px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main-delivery-section .leftside-container {
+  display: flex;
+  gap: 30px;
+}
+.main-delivery-section .leftside-container .delivery {
+  display: flex;
+  gap: 20px;
+}
+.main-delivery-section .leftside-container .delivery p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3f4255;
+}
+.rightside-container .arrow img {
+  margin-left: 60px;
+}
+/* main delivery section end */
+
+/* restaurants */
+.restaurant {
+  margin: auto;
+  width: 1256px;
+  height: 392px;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.res-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.res-heading h1 {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 8%;
+  color: #3f4255;
+}
+.res-heading button {
+  border-radius: 4px;
+  background-color: #f2f4fa;
+  border: transparent;
+  padding: 16px 24px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+.res-cards .card {
+  width: 296px;
+  height: 296px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+.res-cards .card img {
+  width: 100%;
+  height: 100%;
+}
+/* restaurants end */
+/* Your nearest restaurants */
+.nearest-restaurant {
+  width: 1440px;
+  height: 297px;
+  background-color: #f2f4fa;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 72px;
+}
+.nearest-restaurant .nearest-res-leftside {
+  width: 50%;
+}
+.nearest-restaurant .nearest-res-leftside h1 {
+  font-size: 36px;
+  line-height: 64px;
+  letter-spacing: 8%;
+  font-weight: 300;
+  color: #3f4255;
+  margin-top: 80px;
+  margin-left: 172px;
+}
+.nearest-restaurant .nearest-res-leftside p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #3f4255;
+  margin-left: 172px;
+  margin-top: 24px;
+}
+.nearest-restaurant .nearest-res-rightside {
+  width: 50%;
+}
+.nearest-res-rightside .right-button {
+  display: flex;
+  gap: 5px;
+}
+.nearest-res-rightside .right-button .first-button {
+  border: transparent;
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 24px 16px 24px 48px;
+  width: 336px;
+  height: 72px;
+  gap: 8px;
+  border-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #9093a6;
+  margin-top: 113px;
+  margin-left: 50px;
+}
+.nearest-res-rightside .right-button .second-button {
+  width: 88px;
+  height: 72px;
+  background-color: #ffe145;
+  border: transparent;
+  border-radius: 8px;
+  padding: 26px 24px;
+  color: #b79c10;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-top: 113px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-bottom: 8px;
+}
+/* Your nearest restaurants end */
+
+/* Specialities */
+.Specialities {
+  margin: auto;
+  width: 1256px;
+  height: 392px;
+  margin-top: 48px;
+  /* display: flex;
+  flex-direction: column; */
+  justify-content: space-between;
+  border: 2px solid yellow;
+}
+.spe-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.spe-heading h1 {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 8%;
+  color: #3f4255;
+}
+.spe-heading button {
+  border-radius: 4px;
+  background-color: #f2f4fa;
+  border: transparent;
+  padding: 16px 24px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+.spe-cards {
+  border: 2px solid green;
+  display: flex;
+  flex-wrap: nowrap;
+  }
+  .spe-cards{
+    /* display: flex; */
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: 2px solid red;
+  }
+.spe-cards img{
+  width: 136px;
+  height: 136px;
+  gap: 24px;
+  }
+
+/* Specialities */
